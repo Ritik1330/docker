@@ -1,0 +1,20 @@
+version : '3.3'
+
+services:
+  
+  postgres:
+     # postgres-ka-container
+
+   image:postgres #hub.docker.com
+   ports: - 7000:7000
+   envirement:
+   USER: ritik
+   id: 345678iop
+
+  redis:
+   image:postgres #hub.docker.com
+ ports: - 6379:6379
+   envirement:
+   USER: ritik
+   id: 345678iop
+     
