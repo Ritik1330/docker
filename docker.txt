@@ -15,5 +15,8 @@ pass enviment variable => docker run -it -p 1025:1025 -e key=value -e key=value
 
 
 
+after docker file
+docker build -t <image name what you whant>.
+
 ls
 whoami
