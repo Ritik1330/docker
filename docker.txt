@@ -1,0 +1,19 @@
+docker 
+docker -v
+create container => docker run -it ubuntu
+
+list runing container => docker container ls
+list all container => docker container ls -a
+for starte container => docker start container name
+for stop container => docker stop container name
+for run  from your tarminal and exite => docker exec funny_knuth ls
+atech your tarminal to container => docker exec -it funny_knuth bash
+your tarminal to container => docker exec <container name> <command>
+for local images => docker images and docker images ls
+for docker port expose on your machine => docker images run -it -p 1025:1025 <image name>
+pass enviment variable => docker run -it -p 1025:1025 -e key=value -e key=value
+
+
+
+ls
+whoami
